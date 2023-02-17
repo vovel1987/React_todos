@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+
+  border-radius: 20px;
+  position: relative;
+ 
+
+  gap: 10px 0px;
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.btn_tag {
+  width: 19px;
+  height: 19px;
+  font-size: 15px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  cursor: pointer;
+  flex-direction: column;
+  display: none;
+  background-color: red;
+}
+.container:hover .btn_tag {
+  display: block;
+}
+.day {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: rgb(114, 94, 187);
+  border-radius: 10px 0px 0px 10px;
+  color: white;
+}
